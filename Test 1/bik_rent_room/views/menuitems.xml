@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="menu_room_reservation_root" name="Pemesanan Ruangan" sequence="10"/>
+
+    <menuitem id="menu_room_reservation" name="Pemesanan Ruangan"
+              parent="menu_room_reservation_root"
+              action="action_room_reservation" sequence="10"/>
+
+    <menuitem id="menu_room_master" name="Master Ruangan"
+              parent="menu_room_reservation_root"
+              action="action_room_master" sequence="20"/>
+</odoo>
